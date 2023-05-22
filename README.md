@@ -8,7 +8,7 @@ Este trabalho reporta-se ao momento de avaliação designado por M1 desenvolvido
 
 ## User's Playlist
 O objetivo foi criar uma API de gestão de playlists, músicas nelas contidas, constituída por 3 recursos: User, Playlist e Songs. Através da autenticação do utilizador, o mesmo tem acesso às suas playlists e músicas, a apenas ele pode fazer alterações, apagar e criar playlists e músicas que estejam associadas ao seu user_id, desde que esteja autenticado na API.
-Esta API contém uma componente de frontend, acrescida ao momento 1 de avaliação.
+Esta API contém uma componente de frontend, acrescida ao momento 1 de avaliação, desenvolvida em ReactJs
 
 ## Tecnologias
 * [nodeJS](https://nodejs.org/en/)
@@ -20,6 +20,7 @@ Esta API contém uma componente de frontend, acrescida ao momento 1 de avaliaç�
 ### Frameworks e Bibliotecas
 * [nodeJS](https://nodejs.org/en/)
 * [adonisJS](https://adonisjs.com/)
+* [ReactJs] (https://react.dev/)
 
 ### Apresentação do projeto
 * Capitulo 1: [Descrição do projeto](docs/c1.md)
