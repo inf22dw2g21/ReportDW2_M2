@@ -6,7 +6,6 @@ function PatchSong(props) {
   const [token, setToken] = useState('');
   const [artist, setArtist] = useState('');
   const [name, setName] = useState('');
-  const [listened, setListened] = useState(false);
     
     const [responseJSON, setResponseJSON] = useState('');
 
@@ -18,8 +17,7 @@ function PatchSong(props) {
       e.preventDefault();
        await axios.patch(`${fullPath}`, {
         artist: artist,
-        name: name,
-        listened: listened
+        name: name
       },
       { headers: {
         'Authorization': `Bearer ${token}`,
@@ -52,13 +50,6 @@ function PatchSong(props) {
         </div>
         <div>
           <input onChange={(e) => setName(e.target.value)} className="w-full bg-gray-200 rounded my-1 p-1 border" type="text" name="name" id="name" placeholder="song name" />
-        </div>
-        <div>
-        <select onChange={e => setListened(e.target.value === "true")} id="prefixo" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-          <option defaultValue="false">Choose a value for listened</option>
-          <option value="false">false</option>
-          <option value="true">true</option>
-        </select>
         </div>
         <input className="w-4/12 text-white rounded mt-2 mb-2" style={{backgroundColor: 'rgba(var(--d69,0,149,246), 1)'}} type="submit" value="Submit" />
       </form>

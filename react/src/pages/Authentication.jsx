@@ -20,7 +20,7 @@ function Authentication(props) {
       }
       ).then(response => {
         setResponseJSON(JSON.stringify(response.data, null, '\t'));
-        //console.log(response.data)
+        //console.log(response.data);
       }).catch(err => console.log(err.response.data))
       
     };
