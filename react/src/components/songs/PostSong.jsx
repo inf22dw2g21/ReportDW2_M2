@@ -6,7 +6,6 @@ function PostSong(props) {
   const [token, setToken] = useState('');
   const [artist, setArtist] = useState('');
   const [name, setName] = useState('');
-  const listened = false;
     
     const [responseJSON, setResponseJSON] = useState('');
 
@@ -18,8 +17,7 @@ function PostSong(props) {
       e.preventDefault();
        await axios.post(`${fullPath}`, {
         artist: artist,
-        name: name,
-        listened: listened
+        name: name
       },
       { 
         headers: {
