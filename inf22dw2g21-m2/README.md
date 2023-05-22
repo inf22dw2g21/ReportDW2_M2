@@ -21,6 +21,12 @@ To view the Swagger UI interface of the app:
 ```
 http://localhost:3333/docs
 ```
+
+To view the ReactJS interface of the app:
+
+```
+http://localhost:3000
+```
 --------------------------------------------------------------------------------------------------------
 
 ###
@@ -41,7 +47,13 @@ Para fazer o compose do docker
 docker compose up
 ```
 
-Para ver a app e respetiva interface gráfica
+Para ver a app e respetiva interface gráfica (Swagger)
+
+```
+http://localhost:3333/docs
+```
+
+Para ver a app e respetiva interface gráfica (ReactJS)
 
 ```
 http://localhost:3333/docs

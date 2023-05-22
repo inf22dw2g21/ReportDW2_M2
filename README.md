@@ -1,14 +1,14 @@
 # Avaliação Contínua, Momento 2 - 2022/23
 
 Este repositório alberga o projeto desenvolvido para a disciplina de Desenvolvimento WEB 2 do 2º ano da Licenciatura de Informática lecionada na Universidade da Maia.
-Este trabalho reporta-se ao momento de avaliação designado por M1 desenvolvido pelo grupo G21 constituido pelo seguintes elementos:
+Este trabalho reporta-se ao momento de avaliação designado por M2 desenvolvido pelo grupo G21 constituido pelo seguintes elementos:
 * [Cátia Antunes](https://github.com/CatiaAntunes)
 * [Diogo Alves](https://github.com/Diogojqalves)
 * Organizaçao - [inf22dw2g21](https://github.com/INF22DW2G21)
 
 ## User's Playlist
 O objetivo foi criar uma API de gestão de playlists, músicas nelas contidas, constituída por 3 recursos: User, Playlist e Songs. Através da autenticação do utilizador, o mesmo tem acesso às suas playlists e músicas, a apenas ele pode fazer alterações, apagar e criar playlists e músicas que estejam associadas ao seu user_id, desde que esteja autenticado na API.
-Esta API contém uma componente de frontend, acrescida ao momento 1 de avaliação.
+Esta API contém uma componente de frontend, acrescida ao momento 1 de avaliação, desenvolvida em ReactJs
 
 ## Tecnologias
 * [nodeJS](https://nodejs.org/en/)
@@ -20,6 +20,7 @@ Esta API contém uma componente de frontend, acrescida ao momento 1 de avaliaç�
 ### Frameworks e Bibliotecas
 * [nodeJS](https://nodejs.org/en/)
 * [adonisJS](https://adonisjs.com/)
+* [ReactJs] (https://react.dev/)
 
 ### Apresentação do projeto
 * Capitulo 1: [Descrição do projeto](docs/c1.md)
