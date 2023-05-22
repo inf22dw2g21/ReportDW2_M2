@@ -1,0 +1,27 @@
+# React
+- npm i
+- npm run start
+
+Para testares as rotas, tens de ligar o adonis e o sql
+
+Docker:
+
+No ficheiro ./src/App.js do React
+
+É necessário Alterar localhost para o nome do container da máquina do adonis para o react conseguir fazer requests à API
+- const machineHost = 'http://localhost:3333' para const machineHost = 'http://services:3333'
+
+
+# Adonis
+Localização:
+- ./config/cors.js
+
+No ficheiro:
+- localizar a linha 19 === origin: false,
+
+Alterar para:
+- origin: false
+
+
+
+Nota: no patch songs, se alterar o valor listend para true ou false, a bd regista sempre como null (decidi ignorar), podemos sempre remover no adonis (migrações e controllers) todas as menções a listened, e eliminar o campo do ficheiro sql da criação das tabelas
