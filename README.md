@@ -16,11 +16,12 @@ Esta API contém uma componente de frontend, acrescida ao momento 1 de avaliaç�
 * [Docker](https://www.docker.com/)
 * [Postman](https://www.postman.com/)
 * AuthJWT
+* [Tailwind](https://tailwindcss.com/)
 
 ### Frameworks e Bibliotecas
 * [nodeJS](https://nodejs.org/en/)
 * [adonisJS](https://adonisjs.com/)
-* [ReactJs] (https://react.dev/)
+* [ReactJs](https://react.dev/)
 
 ### Apresentação do projeto
 * Capitulo 1: [Descrição do projeto](docs/c1.md)
